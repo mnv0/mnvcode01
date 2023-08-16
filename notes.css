@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+:root{
+    --bs-drak-color:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --bs-secondary-color:#29a9fd;
+    --bs-supporting-color:#c850c0;
+    
+
+}
+/* navbar section  */
+nav-link{
+    color: var(--bs-main-color);
+    
+}
+.nav-link:hover{
+    color: var(--bs-secondary-color)!important;
+}
+.navbar{
+    background:rgb(32, 32, 157);
+    margin:20px;
+    
+}
+
+/* end  */
+.card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+
+}
+.img{
+    margin: 20px;
+    width: 25px;
+}
+.card{
+    border-radius: 30px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.btn-primary{
+    border-radius: 50px;
+    width: 120px;
+
+}
+.btn-primary:hover{
+    background-color: black;
+}
+h3,h5{
+    color: rgb(0,91,228);
+}
